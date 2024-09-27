@@ -27,6 +27,7 @@ margin: 0;
     gap: 10px;
 }
 .button{
+    color: red;
     background-color: aliceblue;
     color: black;
     font-size: 1.5rem;
@@ -42,8 +43,7 @@ margin: 0;
     background-color: rgb(159, 35, 26);
 }
 .button.zero{
-    grid-column: span 2;
-border-radius: 50px;
+    border-radius: 50%;
 }
 .buttons :hover{
     transform: translateY(-10px);
